@@ -1,0 +1,45 @@
+/*this keeps images in their containers, a rwd trick*/
+img,video{width: auto; max-width: 100%; height: auto;}
+/*old ie scaling is border-bottom-left-radius: */
+img{ -ms-interpolation-mode: bicubic;} 
+
+body{font-size: 1.125em;
+	line-height: 1.2;
+	width:100%;
+	background: #15976E;
+	}
+
+
+.wrapper{width:70%;
+margin: auto;}
+
+.headerIntro, p{background: #7DB32C;
+	width: 100%; 
+	margin-top: 0px;
+	color:#fff;
+	box-shadow: 2px 2px 2px #fff;
+	text-align: center; 
+	}
+
+#googleMap{
+	background:#222;
+	height: 31.250em;
+	}
+
+.search {margin-top: 0.625em; /*10px*/
+	float: left;
+	margin: 0.125em; /*2px*/
+
+	}
+#search button{background:#7DB32C;
+    color: #fff;
+    float: left;}
+
+.footer{float: left;
+	clear:both;
+	width: 100%;
+	height: 2.500em; /*40px*/
+	margin-top: 3.250em; /*70px*/
+	background: #7DB32C;
+	color:#fff;
+	text-align: center;}
